@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "daleesmthii@gmail.com",
+    "classifications": [ "Web" ], 
+    "name": "Domain Driven Design Service",
+    "identity": "DaleSmith.DDDService.CSharp",         
+    "groupIdentity":"DaleSmith.DDDService",
+    "shortName": "dddservice",                    
+    "tags": {
+      "language": "C#",                         
+      "type":"project"
+    },
+    "sourceName": "ServiceName",              
+    "preferNameDirectory": false,
+    "primaryOutputs": [
+        {
+            "path": "ServiceName/ServiceName.Api"
+        },
+        {
+            "path": "ServiceName/ServiceName.Domain"
+        }
+    ]
+  }
